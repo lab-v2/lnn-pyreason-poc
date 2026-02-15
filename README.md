@@ -49,10 +49,14 @@ Credible lower bounds attenuate with graph distance (Lukasiewicz t-norm): **1.0 
 
 ## Setup
 
+Set up the packages in a clean virtual environment. Take a virtual environment named ".prlnn" as an example (You could name it whatever you want),
+
 ```bash
 # Python >= 3.9 required
+python3 -m venv .prlnn
+source .prlnn/bin/activate
 pip install git+https://github.com/IBM/LNN
-pip install pyreason  # or install from local source
+pip install git+https://github.com/lab-v2/pyreason.git@LNN-integration
 ```
 
 ## Run

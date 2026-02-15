@@ -15,9 +15,6 @@ Neither system alone achieves the combined result:
 import sys
 import os
 
-# Ensure local pyreason is importable
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "pyreason"))
-
 import networkx as nx
 from lnn import (
     Model,
